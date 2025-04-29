@@ -2,7 +2,13 @@
 # 旧式”風”チャットボットv1 🤖あそびかた😊
 “It thinks like an AI. Acts like an AI. But deep down… it's just RetroBot (PseudoAI).”
   
-コード作成、テキスト作成、アイコン作成、コーパス作成、翻訳にChatGPTを使用しています。  
+コード作成、画像作成、コーパス作成、テキスト作成、翻訳にChatGPTを使用しています。  
+
+---
+
+## 免責事項
+- 本アプリケーションの利用や環境設定に起因するいかなる損害や不具合について、作者は一切の責任を負いません。  
+- **本プロジェクトで作成・使用しているコーパスを直接的な機械学習（ファインチューニング・リファインメント学習等）に使用することを固く禁止します。**  
 
 ---
 
@@ -30,14 +36,9 @@
 
 ---
 
-## 免責事項
-- 本アプリケーションの利用や環境設定に起因するいかなる損害や不具合について、作者は一切の責任を負いません。  
-- **本プロジェクトで作成・使用しているコーパスを直接的な機械学習（ファインチューニング・リファインメント学習等）に使用することを固く禁止します。**  
----
-
 **製作期間**
 
-- **v1**: 2025年4月10日 ~ 2025年4月19日  
+- **v1**: 2025年4月10日 ~ 2025年4月29日  
 
 ---
 
@@ -241,8 +242,8 @@ TkinterはPythonに含まれるGUIライブラリですが、その動作にはT
 - **ライセンス**：LGPLv2.1+（GNU Lesser General Public License）  
 - **著作権表示**：Copyright © Radim Řehůřek and contributors  
 - **公式サイト**：[https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/)  
-- **GitHub**：[https://github.com/RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim)
-- **ライセンス全文**： [Gensim GitHubリポジトリのLICENSEファイル](https://github.com/RaRe-Technologies/gensim/blob/develop/LICENSE)  
+- **GitHub**：[https://github.com/piskvorky/gensim](https://github.com/piskvorky/gensim)
+- **ライセンス全文**： [Gensim GitHubリポジトリのLICENSEファイル](https://github.com/piskvorky/gensim/blob/develop/COPYING)  
 
 ---
 
@@ -286,7 +287,7 @@ TkinterはPythonに含まれるGUIライブラリですが、その動作にはT
 
 - **ライセンス**：BSD 3-Clause License  
 - **著作権表示**：Copyright (c) 2011-2014, The OpenBLAS Project All rights reserved.
-- **公式サイト**：[https://www.openblas.net/](https://www.openblas.net/)  
+- **公式サイト**：[http://www.openmathlib.org/OpenBLAS/](http://www.openmathlib.org/OpenBLAS/)  
 - **GitHub**：[https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 
 ---
@@ -341,7 +342,7 @@ PyInstaller は以下のように**複数のライセンス形態**で構成さ�
 
 - **このアプリケーションのコード**: MIT License。詳細は[LICENSE-CODE](./licenses/application/LICENSE-CODE)ファイルを参照してください。
 - **画像**: Creative Commons Attribution 4.0 (CC BY 4.0)。詳細は[LICENSE-IMAGES](./licenses/application/LICENSE-IMAGES)ファイルを参照してください。
-- **コーパス**: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)詳細は[LICENSE-IMAGES](./licenses/application/LICENSE-IMAGES)ファイルを参照してください。  
+- **コーパス**: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)詳細は[LICENSE-CORPUS](./licenses/application/LICENSE-CORPUS)ファイルを参照してください。  
 
 ## ライセンスの簡単な説明
 

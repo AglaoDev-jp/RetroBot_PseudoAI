@@ -4,9 +4,9 @@
 # 旧式”風”チャットボットv1
 “It thinks like an AI. Acts like an AI. But deep down… it's just RetroBot (PseudoAI).”
   
-コード作成、テキスト作成、アイコン作成、コーパス作成、翻訳にChatGPTを使用しています。  
+コード作成、画像作成、コーパス作成、テキスト作成、翻訳にChatGPTを使用しています。  
 このリポジトリでは、アプリケーションの**ソースコード**を公開しています。  
-チャットボットのファイル(実行ファイル)のダウンロードは[こちら]()  
+チャットボットのファイル(実行ファイル)のダウンロードは[こちら](https://github.com/AglaoDev-jp/RetroBot_PseudoAI/releases/download/RetroBot_PseudoAI_v1/RetroBot_PseudoAI_v1.zip)  
 チャットボットのあそびかたは[こちら](./README_PLAY.md)  
 
 ---
@@ -47,7 +47,7 @@
 
 **製作期間**
 
-- **v1**: 2025年4月10日 ~ 2025年4月19日
+- **v1**: 2025年4月10日 ~ 2025年4月29日
 
 ---
 
@@ -229,8 +229,8 @@ TkinterはPythonに含まれるGUIライブラリですが、その動作にはT
 - **ライセンス**：LGPLv2.1+（GNU Lesser General Public License）  
 - **著作権表示**：Copyright © Radim Řehůřek and contributors  
 - **公式サイト**：[https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/)  
-- **GitHub**：[https://github.com/RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim)
-- **ライセンス全文**： [Gensim GitHubリポジトリのLICENSEファイル](https://github.com/RaRe-Technologies/gensim/blob/develop/LICENSE)  
+- **GitHub**：[https://github.com/piskvorky/gensim](https://github.com/piskvorky/gensim)
+- **ライセンス全文**： [Gensim GitHubリポジトリのLICENSEファイル](https://github.com/piskvorky/gensim/blob/develop/COPYING)  
 
 > ※ Gensim は、OSI承認の GNU LGPLv2.1 ライセンスの下で配布されています。これは、個人・商用を問わず無償で使用可能であることを意味しますが、Gensim を改変して再配布する場合は、その改変部分のソースコードを開示する必要があります。  
 > それ以外の用途では自由に再配布が可能ですが、Gensim のライセンス自体を変更することはできません（当然だろ！）。  
@@ -315,7 +315,7 @@ OpenBLAS のDLLファイルが自動的に組み込まれていることを確�
 
 - **ライセンス**：BSD 3-Clause License  
 - **著作権表示**：Copyright (c) 2011-2014, The OpenBLAS Project All rights reserved.
-- **公式サイト**：[https://www.openblas.net/](https://www.openblas.net/)  
+- **公式サイト**：[http://www.openmathlib.org/OpenBLAS/](http://www.openmathlib.org/OpenBLAS/)  
 - **GitHub**：[https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 
 > ※ 実行ファイル内に含まれている内容の確認には、`pyi-archive_viewer` を使用しています。  
@@ -587,7 +587,7 @@ pyinstaller --onefile --noconsole ^
 
 - **このアプリケーションのコード**: MIT License。詳細は[LICENSE-CODE](./licenses/application/LICENSE-CODE)ファイルを参照してください。
 - **画像**: Creative Commons Attribution 4.0 (CC BY 4.0)。詳細は[LICENSE-IMAGES](./licenses/application/LICENSE-IMAGES)ファイルを参照してください。
-- **コーパス**: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)詳細は[LICENSE-IMAGES](./licenses/application/LICENSE-IMAGES)ファイルを参照してください。  
+- **コーパス**: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)詳細は[LICENSE-CORPUS](./licenses/application/LICENSE-CORPUS)ファイルを参照してください。  
 
 ## ライセンスの簡単な説明
 
